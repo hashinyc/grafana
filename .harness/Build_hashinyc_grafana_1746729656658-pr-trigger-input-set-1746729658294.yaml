@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_hashinyc_grafana_1746729656658-pr-trigger-input-set
+  identifier: Build_hashinyc_grafana_1746729656658prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CI_Pipeline
+  pipeline:
+    identifier: Build_hashinyc_grafana_1746729656658
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
